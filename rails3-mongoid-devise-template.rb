@@ -736,11 +736,11 @@ RUBY
       # create 'config/initializers/rolify.rb'
       # create 'db/migrate/...rolify_create_roles.rb'
       # insert 'rolify' method in 'app/models/users.rb'
-      if recipes.include? 'mongoid'
-        generate 'rolify:role Role User mongoid'
-      else
-        generate 'rolify:role Role User'
-      end
+      #if recipes.include? 'mongoid'
+    #    generate 'rolify:role Role User mongoid'
+     # else
+      #  generate 'rolify:role Role User'
+    #  end
     end
 
     # Add a 'name' attribute to the User model
